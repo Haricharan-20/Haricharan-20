@@ -1,0 +1,112 @@
+name: Sync Pinned Projects
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pinned-projects
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch pinned repositories
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          query='query($login:String!){user(login:$login){pinnedItems(first:6,types:REPOSITORY){nodes{... on Repository{nameWithOwner name description url primaryLanguage{name} stargazerCount forkCount isPrivate}}}}}'
+          curl -fsSL https://api.github.com/graphql \
+            -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "$(jq -nc --arg q "$query" --arg login "$USERNAME" '{query:$q,variables:{login:$login}}')" \
+            > /tmp/pinned.json
+          jq -e '.data.user.pinnedItems.nodes' /tmp/pinned.json >/dev/null
+
+      - name: Render pinned projects
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("/tmp/pinned.json").read_text())
+          repos = data["data"]["user"]["pinnedItems"]["nodes"]
+
+          def esc(text):
+              return (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+          featured = ["<!-- PINNED_PROJECTS_START -->", "## 🚀 Featured Projects", ""]
+          if repos:
+              featured.append("<div align=\"center\">")
+              featured.append("")
+              for repo in repos:
+                  name = esc(repo["name"])
+                  desc = esc(repo.get("description") or "Pinned GitHub project.")
+                  url = repo["url"]
+                  lang = repo.get("primaryLanguage") or {}
+                  language = esc(lang.get("name") or "Code")
+                  featured.extend([
+                      f'<a href="{url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Haricharan-20&repo={name}&theme=dark&hide_border=true" alt="{name}"/></a>',
+                      "",
+                  ])
+              featured.extend(["</div>", ""])
+          else:
+              featured.append("_No repositories are currently pinned on GitHub._")
+              featured.append("")
+
+          featured += ["## 🚀 Projects", ""]
+          if repos:
+              for repo in repos:
+                  name = esc(repo["name"])
+                  desc = esc(repo.get("description") or "Pinned GitHub project.")
+                  url = repo["url"]
+                  lang = repo.get("primaryLanguage") or {}
+                  language = esc(lang.get("name") or "Code")
+                  stars = repo.get("stargazerCount", 0)
+                  forks = repo.get("forkCount", 0)
+                  featured.extend([
+                      f"### 🔗 [{name}]({url})",
+                      desc,
+                      f"**{language}** · ⭐ {stars} · 🍴 {forks}",
+                      "",
+                  ])
+          else:
+              featured.append("_No repositories are currently pinned on GitHub._")
+              featured.append("")
+
+          featured.append("<!-- PINNED_PROJECTS_END -->")
+          block = "\n".join(featured)
+
+          path = Path("README.md")
+          text = path.read_text()
+          start = "<!-- PINNED_PROJECTS_START -->"
+          end = "<!-- PINNED_PROJECTS_END -->"
+          if start in text and end in text:
+              before = text.split(start, 1)[0]
+              after = text.split(end, 1)[1]
+              path.write_text(before + block + after)
+          else:
+              raise SystemExit("Pinned project markers are missing from README.md")
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: sync pinned GitHub projects"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            git rebase --abort || true
+            sleep 5
+          done
+          exit 1

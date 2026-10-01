@@ -113,29 +113,16 @@ RESEARCH        →  learn • test • document • improve
 
 ---
 
+<!-- PINNED_PROJECTS_START -->
 ## 🚀 Featured Projects
 
-| Project | What it is |
-|---|---|
-| 🔬 **LEAF** | Layered exploration and analysis framework for technical experiments |
-| 🛡️ **OMNIA-X** | Modular security tooling and authorized-scope analysis |
-| 🔐 **Cryptography Algorithms** | Hands-on AES, RSA and SHA-256 implementations |
-| 🧪 **Incident Response Playbook** | Practical workflows for phishing and account-compromise scenarios |
-
----
+_This section is automatically synced from the repositories pinned on my GitHub profile._
 
 ## 🚀 Projects
 
-### 🔬 LEAF
-A layered exploration and analysis framework for experimenting with technical workflows.
+_This section is automatically synced from the repositories pinned on my GitHub profile._
 
-### 🔐 Cryptography Algorithms
-Hands-on implementations of AES-256, RSA-2048 and SHA-256 using Python.
-
-### 🛡️ Incident Response Playbook
-Practical response workflows for phishing and account-compromise scenarios.
-
----
+<!-- PINNED_PROJECTS_END -->
 
 ## 🧪 Projects Planned
 
