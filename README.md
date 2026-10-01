@@ -1,94 +1,122 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050914,50:0B2A3A,100:103B46&height=230&section=header&text=HARI%20CHARAN&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=37&desc=CYBERSECURITY%20ENTHUSIAST%20%E2%80%A2%20BUILDER%20%E2%80%A2%20EXPLORER&descAlignY=59&descSize=17" width="100%" alt="Animated profile header"/>
+<img src="./assets/welcome.svg" width="100%" alt="Animated Hari Charan cybersecurity welcome banner"/>
 
-<a href="https://github.com/Haricharan-20">
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=21&pause=900&color=42E8FF&center=true&vCenter=true&width=760&lines=Cybersecurity+Enthusiast;Building+tools+and+exploring+systems;Learning+security%2C+Linux%2C+Python%2C+and+networks;Curious+by+default.+Always+building." alt="Animated typing introduction"/>
-</a>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="340" alt="Animated coding and technology illustration"/>
+<a href="https://readme-typing-svg.demolab.com/"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=900&color=42E8FF&center=true&vCenter=true&width=760&lines=Cybersecurity+enthusiast;Builder+%E2%80%A2+Explorer+%E2%80%A2+Researcher;Building+tools+and+exploring+systems;Learning+something+new+every+day." alt="Typing introduction"/></a>
 
 </div>
 
 ---
 
-## ⚡ ABOUT
+## 👋 ABOUT ME
 
-I like learning how things work, finding where they break, and building tools that make the next experiment easier.
+I'm curious about how things work beneath the surface — systems, security, code, networks, and the tools people build around them.
 
-Curiosity leads the work: security, systems, code, networks, automation, and whatever interesting problem appears next.
+I enjoy **learning by building**, experimenting with ideas, breaking things safely, understanding why they behave the way they do, and turning interesting discoveries into useful projects.
 
-## 🧠 INTERESTS
+> **Build it. Explore it. Understand it. Improve it.**
+
+## 🎯 INTERESTS
 
 - 🔐 Cybersecurity & web security
 - 🕸️ Networking & systems
 - 🧪 Security research & experimentation
-- 🐧 Linux & open-source tooling
-- 🤖 AI/ML and developer tools
-- 🌐 Creative, interactive tech
-## 🛠️ WHAT I BUILD
-
-<div align="center">
-
-**TOOLS** · Security utilities · automation · analysis workflows
-
-**PROJECTS** · Experiments turned into usable, documented software
-
-**SYSTEMS** · Small frameworks, command-line tools, and developer experiments
-
-**EXPERIENCES** · Visual interfaces and unusual ways to explore technical ideas
-
-</div>
+- 🐧 Linux & open-source technology
+- 🤖 AI / ML and intelligent tools
+- 💻 Programming & automation
+- 🎨 Creative technical interfaces
+- 🌐 New technologies worth exploring
 
 ## 🔭 CURRENTLY EXPLORING
 
 ```text
-SECURITY  →  web security • networking • research
-BUILDING  →  Python • Java • automation • tooling
-SYSTEMS   →  Linux • protocols • how things work
-EXPERIMENT →  test • break • learn • improve
+CYBERSECURITY   →  security • web • networks • research
+BUILDING        →  tools • automation • experiments
+SYSTEMS         →  Linux • protocols • architecture
+AI / ML         →  practical ideas • intelligent tooling
+RESEARCH        →  learn • test • document • improve
 ```
+## 🛠️ TOOLS & THINGS I LIKE BUILDING
 
-## 🧰 TOOLBOX
+<div align="center">
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,linux,bash,git,github,mysql,vscode&perline=8" alt="Technology icons"/>
-</p>
+<img src="https://skillicons.dev/icons?i=python,java,linux,bash,git,github,mysql,vscode&perline=8" alt="Programming and technology icons"/>
+
+</div>
+
+| 🔒 Security | ⚙️ Building | 🧭 Exploring |
+|---|---|---|
+| Web security | Security tools | Systems |
+| Networking | Automation | Protocols |
+| Research | CLI utilities | AI / ML |
+| Defensive experiments | Developer tools | New technologies |
+
+## 🧠 THINKING
+
+> I don't want to only use technology. I want to understand what is happening underneath it.
+
+> The interesting part is usually the thing you haven't understood yet.
+
+> Every experiment is a chance to learn something.
+
+## 🧊 CYBERSPACE
+
+<img src="./assets/cyber-grid.svg" width="100%" alt="Animated cyber grid showing security, build core and tools"/>
 
 ## 🚀 PROJECTS
 
 ### 🔬 LEAF
-Layered exploration and analysis framework.
+A layered exploration and analysis framework for experimenting with technical workflows.
 
 ### 🔐 Cryptography Algorithms
-A hands-on implementation project covering AES-256, RSA-2048, and SHA-256.
+Hands-on implementations of AES-256, RSA-2048 and SHA-256 using Python.
 
 ### 🛡️ Incident Response Playbook
 Practical response workflows for phishing and account-compromise scenarios.
+
+## 🧪 PROJECTS PLANNED
+
+| Project | Idea |
+|---|---|
+| 🔐 Security Toolkit | A growing collection of practical security utilities |
+| 🛰️ Network Explorer | Visualize and understand network behaviour |
+| 🤖 AI Security Lab | Explore AI-assisted security workflows |
+| 🧩 Developer Experiments | Small tools built to answer interesting questions |
+| 🌐 Interactive Lab | A visual space for exploring technical concepts |
+
 ## 🌱 HOW I LEARN
 
-Learn something → build something → test it → understand what failed → improve it → share what worked.
-
-## 💭 THINKING
-
-> I’m more interested in understanding systems than just using them.
-
-> Curiosity becomes useful when you turn it into something you can build, test, and improve.
-
+```text
+QUESTION
+   ↓
+EXPLORE
+   ↓
+BUILD
+   ↓
+TEST
+   ↓
+BREAK SAFELY
+   ↓
+UNDERSTAND
+   ↓
+IMPROVE
+```
 ## 🔗 CONNECT
-
-<p align="center">
-<a href="https://github.com/Haricharan-20"><img src="https://img.shields.io/badge/GitHub-Haricharan--20-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/v-hari-charan-1aba93398"><img src="https://img.shields.io/badge/LinkedIn-V%20Hari%20Charan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/hari_charan_20/"><img src="https://img.shields.io/badge/Instagram-@hari__charan__20-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-</p>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:103B46,50:0B2A3A,100:050914&height=110&section=footer&animation=twinkling" width="100%" alt="Animated profile footer"/>
+<a href="https://www.linkedin.com/in/v-hari-charan-1aba93398"><img src="https://img.shields.io/badge/LinkedIn-V%20Hari%20Charan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/hari_charan_20/"><img src="https://img.shields.io/badge/Instagram-%40hari__charan__20-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://github.com/Haricharan-20"><img src="https://img.shields.io/badge/GitHub-Haricharan--20-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
-`CYBERSECURITY` · `BUILD` · `EXPLORE` · `LEARN`
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:42E8FF,50:0B2A3A,100:050914&height=110&section=footer&animation=twinkling" width="100%" alt="Animated footer"/>
+
+### `CYBERSECURITY` · `BUILD` · `EXPLORE` · `RESEARCH` · `LEARN`
 
 </div>
