@@ -22,8 +22,13 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          output_path: assets/github-trophy.svg
+          file: assets/github-trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          theme: onedark
+          max-cols: 6
+          max-rows: 1
+          no-background: true
+          no-frame: true
 
       - name: Commit trophy SVG
         run: |
