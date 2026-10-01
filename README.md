@@ -2,6 +2,10 @@
 
 <img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-2.gif" width="100%" alt="Animated welcome banner"/>
 
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Haricharan-20&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="Profile views"/>
+
 </div>
 
 ---
@@ -74,13 +78,49 @@ RESEARCH        →  learn • test • document • improve
 
 ---
 
-## 🧊 3D Contribution
+## 🔥 Contribution Streak
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/3d-contribution.svg" width="100%" alt="3D contribution visualization"/>
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/profile/streak.svg" width="100%" alt="GitHub contribution streak"/>
 
 </div>
+
+---
+
+## 🧊 3D Contributions
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution calendar"/>
+
+</div>
+
+> A generated 3D contribution calendar that updates automatically through GitHub Actions.
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/output/github-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
+</picture>
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it is |
+|---|---|
+| 🔬 **LEAF** | Layered exploration and analysis framework for technical experiments |
+| 🛡️ **OMNIA-X** | Modular security tooling and authorized-scope analysis |
+| 🔐 **Cryptography Algorithms** | Hands-on AES, RSA and SHA-256 implementations |
+| 🧪 **Incident Response Playbook** | Practical workflows for phishing and account-compromise scenarios |
 
 ---
 
