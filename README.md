@@ -8,7 +8,7 @@
 
 <br/>
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/github-trophy.svg" width="100%" alt="GitHub achievements and trophies"/></a>
+<a href="https://github.com/Haricharan-20?tab=achievements"><img src="https://img.shields.io/badge/GitHub-Achievements-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Achievements"/></a>
 
 </div>
 
