@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/welcome.svg" width="100%" alt="Animated Hari Charan cybersecurity welcome banner"/>
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-1.gif" width="100%" alt="Animated cybersecurity profile intro"/>
 
 <a href="https://readme-typing-svg.demolab.com/"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=900&color=42E8FF&center=true&vCenter=true&width=760&lines=Cybersecurity+enthusiast;Builder+%E2%80%A2+Explorer+%E2%80%A2+Researcher;Building+tools+and+exploring+systems;Learning+something+new+every+day." alt="Typing introduction"/></a>
 
@@ -61,7 +61,11 @@ RESEARCH        →  learn • test • document • improve
 
 ## 🧊 CYBERSPACE
 
-<img src="./assets/cyber-grid.svg" width="100%" alt="Animated cyber grid showing security, build core and tools"/>
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-2.gif" width="100%" alt="Animated cybersecurity scene"/>
+
+## 🧊 3D CONTRIBUTION SPACE
+
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/3d-contribution.svg" width="100%" alt="3D contribution space showing research, build core and experiment"/>
 
 ## 🚀 PROJECTS
 
