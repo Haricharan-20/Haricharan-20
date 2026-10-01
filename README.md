@@ -54,6 +54,7 @@ RESEARCH        →  learn • test • document • improve
 <img src="https://skillicons.dev/icons?i=python,java,linux,bash,git,github,mysql,vscode&perline=8" alt="Tools and technologies"/>
 
 </div>
+
 | Security | Building | Exploring |
 |---|---|---|
 | Web security | Security tools | Systems |
@@ -81,7 +82,7 @@ RESEARCH        →  learn • test • document • improve
 
 </div>
 
-------
+---
 
 ## 🚀 Projects
 
