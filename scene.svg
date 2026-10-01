@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="100%" height="100%" fill="#050812"/>
+<line x1="230" y1="350" x2="600" y2="350" stroke="#27d9ff" stroke-width="2" opacity=".7"/>
+<line x1="970" y1="350" x2="600" y2="350" stroke="#27d9ff" stroke-width="2" opacity=".7"/>
+<circle cx="600" cy="350" r="55" fill="#0a1020" stroke="#27d9ff" stroke-width="3" filter="url(#glow)"/>
+<text x="600" y="355" fill="white" text-anchor="middle" font-family="monospace" font-size="15">SECURITY CORE</text>
+<circle cx="230" cy="350" r="55" fill="#0a1020" stroke="#3b82f6" stroke-width="3" filter="url(#glow)"/>
+<text x="230" y="355" fill="white" text-anchor="middle" font-family="monospace" font-size="15">PYTHON</text>
+<circle cx="970" cy="350" r="55" fill="#0a1020" stroke="#27d9ff" stroke-width="3" filter="url(#glow)"/>
+<text x="970" y="355" fill="white" text-anchor="middle" font-family="monospace" font-size="15">LINUX</text>
+<text x="40" y="60" fill="white" font-family="monospace" font-size="28">HARI CHARAN // CYBERSPACE</text>
+</svg>
