@@ -6,6 +6,10 @@
 
 <img src="https://komarev.com/ghpvc/?username=Haricharan-20&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="Profile views"/>
 
+<br/>
+
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Haricharan-20&theme=onedark&no-frame=true&no-bg=true&row=1&column=6&margin-w=10&margin-h=10" width="100%" alt="GitHub achievements and trophies"/></a>
+
 </div>
 
 ---
