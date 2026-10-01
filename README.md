@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-1.gif" width="100%" alt="Hari Charan animated welcome banner"/>
-
-<br/>
-
-<sub>CYBERSECURITY · PYTHON · LINUX</sub>
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-2.gif" width="100%" alt="Animated welcome banner"/>
 
 </div>
 
@@ -14,30 +10,28 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-2.gif" width="420" alt="Animated character"/>
+<img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/profile-animation-1.gif" width="100%" alt="Animated About Me and interests banner"/>
 
 </div>
 
-> I'm curious about how things work beneath the surface — systems, security, code, networks, and the tools people build around them.
+I'm a curious learner exploring **cybersecurity, AI, tools, systems and new ideas**. I like learning by building things, testing them, breaking down how they work, and improving them.
 
 | | |
 |---|---|
 | 🔐 **Focus** | Cybersecurity, Linux, networking & security research |
-| 💻 **Build** | Security tools, automation, experiments & developer utilities |
-| 🧪 **Approach** | Explore → build → test → understand → improve |
+| 🛠️ **Build** | Tools, automation, experiments & developer utilities |
+| 🧠 **Mindset** | Learn → experiment → understand → improve |
 
 ---
 
 ## 🎯 Interests
 
-- Cybersecurity & web security
-- Linux & open-source technology
-- Networking & systems
-- Security research & experimentation
-- Python, programming & automation
+- Cybersecurity & security research
+- Linux, networking & systems
 - AI / ML and intelligent tooling
-- Creative technical interfaces
-- New technologies worth exploring
+- Python, Java & automation
+- Anime, One Piece & manhwa
+- Korean shows and new technology
 
 ---
 
@@ -60,12 +54,11 @@ RESEARCH        →  learn • test • document • improve
 <img src="https://skillicons.dev/icons?i=python,java,linux,bash,git,github,mysql,vscode&perline=8" alt="Tools and technologies"/>
 
 </div>
-
 | Security | Building | Exploring |
 |---|---|---|
 | Web security | Security tools | Systems |
 | Networking | Automation | Protocols |
-| Research | CLI utilities | AI / ML |
+| Security research | CLI utilities | AI / ML |
 | Defensive experiments | Developer tools | New technologies |
 
 ---
@@ -74,7 +67,7 @@ RESEARCH        →  learn • test • document • improve
 
 > I don't want to only use technology. I want to understand what is happening underneath it.
 
-> The interesting part is usually the thing I haven't understood yet.
+> The interesting part is usually the thing you haven't understood yet.
 
 > Every experiment is a chance to learn something.
 
@@ -87,6 +80,38 @@ RESEARCH        →  learn • test • document • improve
 <img src="https://raw.githubusercontent.com/Haricharan-20/Haricharan-20/main/assets/3d-contribution.svg" width="100%" alt="3D contribution visualization"/>
 
 </div>
+
+------
+
+## 🚀 Projects
+
+### 🔬 LEAF
+A layered exploration and analysis framework for experimenting with technical workflows.
+
+### 🔐 Cryptography Algorithms
+Hands-on implementations of AES-256, RSA-2048 and SHA-256 using Python.
+
+### 🛡️ Incident Response Playbook
+Practical response workflows for phishing and account-compromise scenarios.
+
+---
+
+## 🧪 Projects Planned
+
+| Project | Idea |
+|---|---|
+| 🔐 Security Toolkit | A growing collection of practical security utilities |
+| 🛰️ Network Explorer | Visualize and understand network behaviour |
+| 🤖 AI Security Lab | Explore AI-assisted security workflows |
+| 🧩 Developer Experiments | Small tools built to answer interesting questions |
+| 🌐 Interactive Lab | A visual space for exploring technical concepts |
+
+---
+
+## 🌱 How I Learn
+**Explore → Build → Break → Debug → Understand → Document → Repeat**
+
+I learn best by turning ideas into small experiments and then digging into what happens underneath them.
 
 ---
 
