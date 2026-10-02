@@ -124,19 +124,13 @@ RESEARCH        →  learn • test • document • improve
 
 <a href="https://github.com/Haricharan-20/Malware-Lifecycle-Simulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Haricharan-20&repo=Malware-Lifecycle-Simulator&theme=dark&hide_border=true" alt="Malware-Lifecycle-Simulator"/></a>
 
-<a href="https://github.com/Haricharan-20/cryptography-algorithms-implementation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Haricharan-20&repo=cryptography-algorithms-implementation&theme=dark&hide_border=true" alt="cryptography-algorithms-implementation"/></a>
-
 </div>
 
 ## 🚀 Projects
 
 ### 🔗 [Malware-Lifecycle-Simulator](https://github.com/Haricharan-20/Malware-Lifecycle-Simulator)
 Pinned GitHub project.
-**Python** · ⭐ 0 · 🍴 0
-
-### 🔗 [cryptography-algorithms-implementation](https://github.com/Haricharan-20/cryptography-algorithms-implementation)
-Cyber Security Internship Project - Implementation of AES-256, RSA-2048 and SHA-256 cryptographic algorithms using Python.
-**Python** · ⭐ 0 · 🍴 0
+**Python** · ⭐ 1 · 🍴 0
 
 <!-- PINNED_PROJECTS_END -->
 
