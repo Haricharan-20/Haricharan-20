@@ -130,7 +130,7 @@ RESEARCH        →  learn • test • document • improve
 
 ### 🔗 [Malware-Lifecycle-Simulator](https://github.com/Haricharan-20/Malware-Lifecycle-Simulator)
 Pinned GitHub project.
-**Python** · ⭐ 1 · 🍴 0
+**Python** · ⭐ 0 · 🍴 0
 
 <!-- PINNED_PROJECTS_END -->
 
